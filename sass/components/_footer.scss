@@ -1,0 +1,110 @@
+.footer {
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-item {
+    margin-top: px;
+    margin-right: px;
+    margin-bottom: px;
+    margin-left: em;
+    padding-right: px;
+    padding-bottom: px;
+    padding-left: em;
+}
+.footer-links-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.join {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.join-footer {
+    display: flex;
+}
+
+.join-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.14;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+
+}
+
+.footer-soc-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-soc-item:not(:last-child) {
+    margin-right: 10px;
+
+}
+
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+
+}
+
+.footer-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.subscribe {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+}
+
+.emailBox {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.sub-btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    padding: 10px 28px;
+    border: transparent;
+    margin-left: 12px;
+}

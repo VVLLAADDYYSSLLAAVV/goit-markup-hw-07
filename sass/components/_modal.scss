@@ -1,0 +1,132 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1),
+        visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.2) rotate(180deg);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    min-height: 581px;
+    width: 528px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.button-close:hover .button-close:focus {}
+
+.modal .button-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inherit;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    fill: #000000;
+    background-color: #FFFFFF;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.modal .close-svg {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-svg:hover,
+.close-svg:focus {
+    fill: #2196F3;
+
+
+}
+
+input:hover input:focus {
+    cursor: pointer;
+    border-color: #2196F3;
+    fill: #2196F3;
+}
+
+.text:hover~.modal-icon,
+.text:focus~.modal-icon {
+    fill: #2196f3;
+    border-color: #2196f3;
+}
+
+.tel:hover~.modal-icon,
+.tel:focus~.modal-icon {
+    fill: #2196f3;
+    border-color: #2196f3;
+}
+
+.email:hover~.modal-icon,
+.email:focus~.modal-icon {
+    fill: #2196f3;
+    border-color: #2196f3;
+}
+
+input:hover,
+input:focus {
+    outline: none;
+    border-color: #2196f3;
+}
+
+.sub-class {
+    margin-left: auto;
+}
+
+.sub-email {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.contact-input {
+    width: 358px;
+    height: 50px;
+    padding: 16px;
+    background-color: transparent;
+}
+
+.sub-form-for {
+    margin-top: 20px;
+    display: flex;
+}
+
+.icon-icon-send {
+    margin-left: 10px;
+}

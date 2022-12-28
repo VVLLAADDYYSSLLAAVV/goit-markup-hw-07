@@ -1,0 +1,121 @@
+.section-team {
+    background-color: #F5F4FA;
+}
+.team-employee {
+    display: flex;
+
+}
+
+
+.employee-info {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+
+}
+
+
+
+.employee-name {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+.employee-position {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.bgemployee {
+    background-color: #F5F4FA;
+}
+
+.employee-soc-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.employee-soc-list li {
+    margin-right: 8px;
+}
+
+.employee-soc-list li:nth-child(4) {
+    margin-right: 0;
+}
+
+.employee-soc-item {
+    width: 44px;
+    height: 44px;
+
+}
+
+.employee-soc-item :not(:last-child) {
+    margin-right: 10px;
+}
+
+.style {
+    background-color: #757575;
+    fill: #FFFFFF;
+
+}
+
+.employee-soc-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.employee-soc-item .employee-soc-link {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    fill: #AFB1B8;
+}
+
+.employee-soc-item .style {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    fill: #FFFFFF;
+}
+
+.employee-soc-list .employee-soc-link:hover,
+.employee-soc-list .employee-soc-link:focus {
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
+
+.team-employee .employee-info {
+    margin-right: 30px;
+}
+
+.team-employee .employee-info:nth-child(4) {
+    margin-right: 0;
+}
